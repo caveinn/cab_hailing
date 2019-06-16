@@ -44,6 +44,14 @@ gem 'better_errors', '~> 2.4'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
 
+# use bootstrap for styling
+gem 'bootstrap', '~> 4.1', '>= 4.1.3'
+
+# required by bootstrap to work
+gem 'jquery-rails'
+
+gem 'bcrypt'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]

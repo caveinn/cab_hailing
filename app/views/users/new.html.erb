@@ -1,0 +1,28 @@
+<%= form_with scope: :user, url: users_path, local: true, class: :"card " do |form| %>
+<div class="card-body">
+<p> 
+<%=  form.label :username %>
+<%= form.text_field :name, class: :"form-control"%>
+</p>
+<p>
+<%=  form.label :email %>
+<%= form.email_field :email, class: :"form-control"%>
+</p>
+<p>
+<%=  form.label :phone %>
+<%= form.text_field :phone, class: :"form-control" %>
+</p>
+<p>
+<%=  form.label :password %>
+<%= form.password_field :password, class: :"form-control" %>
+</p>
+<p>
+<%=  form.label :password_confirmation %>
+<%= form.password_field :password_confirmation, class: :"form-control"%>
+</p>
+<p>
+<%= form.submit%>
+</p>
+</div>
+
+<% end %>
