@@ -24,7 +24,7 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 
 #make errors better looking
-gem 'better_errors', '~> 2.4'
+gem 'better_errors', '~> 2.8'
 
 #Bulma CSS
 
